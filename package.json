@@ -1,0 +1,24 @@
+{
+  "icon": "logo.png",
+  "publisher": "xolving",
+  "repository": "https://github.com/xolving/deepup-theme",
+  "name": "deepup-theme",
+  "displayName": "deepup theme",
+  "description": "deepup theme",
+  "version": "0.1.8",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "deepup dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-color-theme.json"
+      }
+    ]
+  }
+}
